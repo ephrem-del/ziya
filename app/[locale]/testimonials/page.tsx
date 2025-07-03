@@ -7,7 +7,6 @@ import Link from 'next/link';
 
 export default function TestimonialsPage() {
   const t = useTranslations('testimonials');
-  const commonT = useTranslations('common');
   
   // Testimonial data (would typically come from a database or API)
   const testimonials = [
@@ -145,7 +144,7 @@ export default function TestimonialsPage() {
                 </div>
                 
                 <p className="text-gray-600 dark:text-gray-300 mb-4 italic">
-                  "{testimonial.text}"
+                  &quot;{testimonial.text}&quot;
                 </p>
                 
                 <div className="pt-4 border-t border-gray-200 dark:border-gray-700">

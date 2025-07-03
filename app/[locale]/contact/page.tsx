@@ -7,7 +7,6 @@ import Link from 'next/link';
 
 export default function ContactPage() {
   const t = useTranslations('contact');
-  const commonT = useTranslations('common');
   
   return (
     <main className="min-h-screen flex flex-col">
@@ -241,12 +240,15 @@ export default function ContactPage() {
                 <h3 className="text-lg font-medium text-gray-800 dark:text-white mb-4">
                   {t('info.map_title')}
                 </h3>
-                <div className="h-64 rounded-xl overflow-hidden bg-gray-200 dark:bg-gray-700">
-                  <img 
-                    src="https://maps.googleapis.com/maps/api/staticmap?center=Addis+Ababa,Ethiopia&zoom=13&size=600x400&maptype=roadmap&markers=color:red%7CAddis+Ababa,Ethiopia&key=DEMO_KEY" 
-                    alt="Map location" 
-                    className="w-full h-full object-cover"
-                  />
+                <div className="h-64 rounded-xl overflow-hidden bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
+                  <div className="text-center p-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 mx-auto text-gray-400 dark:text-gray-500 mb-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                    <p className="text-gray-600 dark:text-gray-400 text-lg font-medium">Map placeholder</p>
+                    <p className="text-gray-500 dark:text-gray-500">Interactive map will be available soon</p>
+                  </div>
                 </div>
               </div>
             </div>

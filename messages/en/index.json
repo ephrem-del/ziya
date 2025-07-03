@@ -136,6 +136,9 @@
       "service_package_basic": "Basic Package",
       "service_package_premium": "Premium Package",
       "service_package_vip": "VIP Package",
+      "service_basic": "Basic Package",
+      "service_premium": "Premium Package",
+      "service_vip": "VIP Package",
       "date": "Preferred Date",
       "date_placeholder": "Select a date",
       "time": "Preferred Time",
@@ -143,7 +146,8 @@
       "message": "Special Requests",
       "message_placeholder": "Enter any special requests or questions",
       "submit": "Send Request",
-      "privacy": "We respect your privacy. All information is confidential."
+      "privacy": "We respect your privacy. All information is confidential.",
+      "privacy_link": "Privacy Policy"
     },
     "info": {
       "title": "Contact Information",

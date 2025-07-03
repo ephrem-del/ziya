@@ -19,9 +19,6 @@ export async function generateMetadata(
   // Validate that the locale is supported
   if (!locales.includes(locale)) notFound();
 
-  // Load messages for the specific locale
-  const messages = (await import(`../../messages/${locale}/index.json`)).default;
-
   return {
     title: locale === 'en' ? 'Ziya Escort Services' : 'ዚያ ኤስኮርት አገልግሎቶች',
     description: locale === 'en' 

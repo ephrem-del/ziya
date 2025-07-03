@@ -1,5 +1,3 @@
-import { locales } from '../layout';
-
 export async function generateMetadata({ params }: { params: { locale: string } }) {
   const locale = params.locale;
   

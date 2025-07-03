@@ -8,7 +8,6 @@ import Link from 'next/link';
 export default function ServicesPage() {
   const t = useTranslations('services');
   const massageT = useTranslations('services.massageTypes');
-  const commonT = useTranslations('common');
   
   // Define the massage services
   const massageServices = [

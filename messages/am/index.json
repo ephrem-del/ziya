@@ -136,6 +136,9 @@
       "service_package_basic": "መሰረታዊ ጥቅል",
       "service_package_premium": "ፕሪሚየም ጥቅል",
       "service_package_vip": "ቪአይፒ ጥቅል",
+      "service_basic": "መሰረታዊ ጥቅል",
+      "service_premium": "ፕሪሚየም ጥቅል",
+      "service_vip": "ቪአይፒ ጥቅል",
       "date": "የሚፈልጉት ቀን",
       "date_placeholder": "ቀን ይምረጡ",
       "time": "የሚፈልጉት ሰዓት",
@@ -143,7 +146,8 @@
       "message": "ልዩ ጥያቄዎች",
       "message_placeholder": "ልዩ ጥያቄዎች ወይም ጥያቄዎችን ያስገቡ",
       "submit": "ጥያቄ ይላኩ",
-      "privacy": "ግላዊነትዎን እናከብራለን። ሁሉም መረጃ ሚስጥራዊ ነው።"
+      "privacy": "ግላዊነትዎን እናከብራለን። ሁሉም መረጃ ሚስጥራዊ ነው።",
+      "privacy_link": "የግላዊነት ፖሊሲ"
     },
     "info": {
       "title": "የመገኛ መረጃ",

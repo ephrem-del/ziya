@@ -135,7 +135,7 @@ export default function PackagesPage() {
                 How do I book a service?
               </h3>
               <p className="text-gray-700 dark:text-gray-300">
-                You can book our services by contacting us through phone, email, or filling out the contact form. We'll respond promptly to arrange your appointment.
+                You can book our services by contacting us through phone, email, or filling out the contact form. We&apos;ll respond promptly to arrange your appointment.
               </p>
             </div>
             
