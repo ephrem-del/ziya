@@ -1,0 +1,171 @@
+{
+  "common": {
+    "home": "Home",
+    "services": "Services",
+    "packages": "Packages",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "language": "Language",
+    "theme": "Theme",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode"
+  },
+  "home": {
+    "title": "Welcome to Our Escort Services",
+    "description": "Premium escort services tailored to your desires",
+    "heroDescription": "Premium adult services with the highest discretion and quality. Our escorts are professional, friendly, and ready to fulfill your desires.",
+    "ctaButton": "Explore Services",
+    "location": {
+      "sectionTitle": "Our Location",
+      "findUs": "Find Us Here",
+      "address": "Address:",
+      "addressLine1": "123 Pleasure St, Downtown",
+      "addressLine2": "Addis Ababa, Ethiopia",
+      "hours": "Working Hours:",
+      "hoursLine1": "Monday - Sunday: 24/7",
+      "hoursLine2": "Always available for you",
+      "phone": "Phone:",
+      "phoneNumber": "+251 91 234 5678",
+      "phoneNote": "Call anytime for booking"
+    },
+    "featuredServices": {
+      "sectionTitle": "Our Services",
+      "subheading": "Explore our premium massage services",
+      "nuruTitle": "Nuru Massage",
+      "nuruDesc": "A special body-to-body massage using a unique gel for ultimate relaxation.",
+      "soapyTitle": "Soapy Massage",
+      "soapyDesc": "Luxurious and refreshing massage with soap and foam for a sensual cleansing experience.",
+      "swedishTitle": "Swedish Massage",
+      "swedishDesc": "Classic relaxation massage to soothe your muscles and relieve tension.",
+      "eroticTitle": "Erotic Massage",
+      "eroticDesc": "Sensual massage experience for ultimate pleasure and intimacy.",
+      "learnMore": "Learn More",
+      "serviceImage": "Service Image"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "massageTypes": {
+      "title": "Massage Types",
+      "nuru": "Nuru Massage",
+      "nuru_desc": "A special body-to-body massage using a unique gel",
+      "soapy": "Soapy Massage",
+      "soapy_desc": "Luxurious and refreshing massage with soap and foam",
+      "swedish": "Swedish Massage",
+      "swedish_desc": "Classic relaxation massage to soothe your muscles",
+      "erotic": "Erotic Massage",
+      "erotic_desc": "Sensual massage experience for ultimate pleasure"
+    }
+  },
+  "packages": {
+    "title": "Packages",
+    "basic": {
+      "title": "Basic Package",
+      "description": "1 hour session with standard massage",
+      "price": "Starting at $150"
+    },
+    "premium": {
+      "title": "Premium Package",
+      "description": "2 hour session with premium massage and extras",
+      "price": "Starting at $250"
+    },
+    "vip": {
+      "title": "VIP Package",
+      "description": "3+ hour full service experience",
+      "price": "Starting at $400"
+    }
+  },
+  "testimonials": {
+    "title": "What Clients Say",
+    "description": "Read reviews from our satisfied clients",
+    "viewMore": "View More",
+    "filter": "Filter Reviews",
+    "serviceFilter": "Filter by Service",
+    "allServices": "All Services",
+    "reviewsCount": "Showing {count} reviews",
+    "leaveReview": "Leave a Review",
+    "yourName": "Your Name",
+    "yourLocation": "Your Location",
+    "location": "Location",
+    "locationPlaceholder": "City, Country",
+    "namePlaceholder": "Your name or alias",
+    "service": "Service Used",
+    "serviceUsed": "Service Used",
+    "selectService": "Select a service",
+    "nuruMassage": "Nuru Massage",
+    "soapyMassage": "Soapy Massage",
+    "swedishMassage": "Swedish Massage",
+    "eroticMassage": "Erotic Massage",
+    "basicPackage": "Basic Package",
+    "premiumPackage": "Premium Package",
+    "vipPackage": "VIP Package",
+    "rating": "Rating",
+    "yourReview": "Your Review",
+    "reviewPlaceholder": "Tell us about your experience...",
+    "submitReview": "Submit Review",
+    "ctaTitle": "Ready to Experience It Yourself?",
+    "ctaDescription": "Join our satisfied clients and book your session today",
+    "bookNow": "Book Now",
+    "happyClients": "Happy Clients",
+    "experiencedEscorts": "Experienced Escorts",
+    "averageRating": "Average Rating"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with us for bookings or inquiries",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Submit",
+    "location": "Location",
+    "phone": "Phone",
+    "form": {
+      "title": "Send Us a Message",
+      "name": "Your Name",
+      "name_placeholder": "Enter your name",
+      "phone": "Your Phone",
+      "phone_placeholder": "Enter your phone number",
+      "email": "Your Email",
+      "email_placeholder": "Enter your email",
+      "service": "Preferred Service",
+      "service_placeholder": "Select a service",
+      "service_nuru": "Nuru Massage",
+      "service_soapy": "Soapy Massage",
+      "service_swedish": "Swedish Massage",
+      "service_erotic": "Erotic Massage",
+      "service_package_basic": "Basic Package",
+      "service_package_premium": "Premium Package",
+      "service_package_vip": "VIP Package",
+      "date": "Preferred Date",
+      "date_placeholder": "Select a date",
+      "time": "Preferred Time",
+      "time_placeholder": "Select a time",
+      "message": "Special Requests",
+      "message_placeholder": "Enter any special requests or questions",
+      "submit": "Send Request",
+      "privacy": "We respect your privacy. All information is confidential."
+    },
+    "info": {
+      "title": "Contact Information",
+      "address_title": "Address",
+      "address": "123 Pleasure St, Downtown, Addis Ababa, Ethiopia",
+      "phone_title": "Phone",
+      "phone": "+251 91 234 5678",
+      "phone2": "+251 98 765 4321",
+      "email_title": "Email",
+      "email": "info@ziyaescorts.com",
+      "hours_title": "Working Hours",
+      "hours": "24/7, Always at your service",
+      "map_title": "Find Us Here"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": "How do I book an appointment?",
+      "a1": "You can book an appointment by filling out our contact form, calling us directly, or sending an email. We recommend booking at least 2 hours in advance for the best availability.",
+      "q2": "What payment methods do you accept?",
+      "a2": "We accept cash payments in ETB or USD. For VIP packages, we also accept credit cards and mobile payment methods.",
+      "q3": "Is my privacy guaranteed?",
+      "a3": "Absolutely. We take client confidentiality extremely seriously. Your personal information and visit details are never shared with third parties or made public."
+    }
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "common": {
+    "home": "ቤት",
+    "services": "አገልግሎቶች",
+    "packages": "ፓኬጆች",
+    "testimonials": "ምስክርነቶች",
+    "contact": "ያግኙን",
+    "language": "ቋንቋ",
+    "theme": "ገጽታ",
+    "darkMode": "ጨለማ ሁነታ",
+    "lightMode": "ብርሃን ሁነታ"
+  },
+  "home": {
+    "title": "ወደ የእኛ ኤስኮርት አገልግሎቶች እንኳን ደህና መጡ",
+    "description": "ለእርስዎ ፍላጎቶች የተዘጋጁ ከፍተኛ ጥራት ያላቸው ኤስኮርት አገልግሎቶች",
+    "heroDescription": "ከፍተኛ ጥንቃቄና ጥራት ያለው ፕሪሚየም አዋቂ አገልግሎቶች። የእኛ ኤስኮርቶች ሙያዊ፣ ወዳጃዊ እና ለእርስዎ ፍላጎቶች ለማሟላት ዝግጁ ናቸው።",
+    "ctaButton": "አገልግሎቶችን ይመልከቱ",
+    "location": {
+      "sectionTitle": "የእኛ አድራሻ",
+      "findUs": "እዚህ ያግኙን",
+      "address": "አድራሻ:",
+      "addressLine1": "123 ፕለዥር መንገድ, ዳውንታውን",
+      "addressLine2": "አዲስ አበባ, ኢትዮጵያ",
+      "hours": "የስራ ሰዓታት:",
+      "hoursLine1": "ሰኞ - እሁድ: 24/7",
+      "hoursLine2": "ሁልጊዜ ለእርስዎ ዝግጁ ነን",
+      "phone": "ስልክ:",
+      "phoneNumber": "+251 91 234 5678",
+      "phoneNote": "ለቦታ ማስያዣ በማንኛውም ጊዜ ይደውሉ"
+    },
+    "featuredServices": {
+      "sectionTitle": "የእኛ አገልግሎቶች",
+      "subheading": "የእኛን ፕሪሚየም የማሳጅ አገልግሎቶች ይመልከቱ",
+      "nuruTitle": "ኑሩ ማሳጅ",
+      "nuruDesc": "ልዩ ጄል በመጠቀም የሚሰጥ ልዩ አካል-ለ-አካል ማሳጅ።",
+      "soapyTitle": "ሳሙና ማሳጅ",
+      "soapyDesc": "በሳሙናና ፎም የሚሰጥ ዘመናዊና አድስ ስሜታዊ ማሳጅ።",
+      "swedishTitle": "ስዊድሽ ማሳጅ",
+      "swedishDesc": "ጡንቻዎችዎን ለማርገብ የሚሰጥ ክላሲክ ማሳጅ።",
+      "eroticTitle": "ኤሮቲክ ማሳጅ",
+      "eroticDesc": "ከፍተኛ ደስታን ለመስጠት የሚሰጥ ስሜታዊ ማሳጅ።",
+      "learnMore": "ተጨማሪ ይመልከቱ",
+      "serviceImage": "የአገልግሎት ምስል"
+    }
+  },
+  "services": {
+    "title": "የእኛ አገልግሎቶች",
+    "massageTypes": {
+      "title": "የማሳጅ አይነቶች",
+      "nuru": "ኑሩ ማሳጅ",
+      "nuru_desc": "ልዩ ጄል በመጠቀም የሚሰጥ ልዩ አካል-ለ-አካል ማሳጅ",
+      "soapy": "ሳሙና ማሳጅ",
+      "soapy_desc": "በሳሙናና ፎም የሚሰጥ ዘመናዊና አድስ ማሳጅ",
+      "swedish": "ስዊድሽ ማሳጅ",
+      "swedish_desc": "ጡንቻዎችዎን ለማርገብ የሚሰጥ ክላሲክ ማሳጅ",
+      "erotic": "ኤሮቲክ ማሳጅ",
+      "erotic_desc": "ከፍተኛ ደስታን ለመስጠት የሚሰጥ ስሜታዊ ማሳጅ"
+    }
+  },
+  "packages": {
+    "title": "ፓኬጆች",
+    "basic": {
+      "title": "መሰረታዊ ፓኬጅ",
+      "description": "1 ሰዓት የሚፈጅ መደበኛ ማሳጅ",
+      "price": "ከ $150 ጀምሮ"
+    },
+    "premium": {
+      "title": "ፕሪሚየም ፓኬጅ",
+      "description": "2 ሰዓት የሚፈጅ ፕሪሚየም ማሳጅ ከተጨማሪ አገልግሎቶች ጋር",
+      "price": "ከ $250 ጀምሮ"
+    },
+    "vip": {
+      "title": "ቪአይፒ ፓኬጅ",
+      "description": "3+ ሰዓት ሙሉ አገልግሎት ልምድ",
+      "price": "ከ $400 ጀምሮ"
+    }
+  },
+  "testimonials": {
+    "title": "ደንበኞች ምን ይላሉ",
+    "description": "ከደስተኛ ደንበኞቻችን ግምገማዎችን ያንብቡ",
+    "viewMore": "ተጨማሪ ይመልከቱ",
+    "filter": "ግምገማዎችን ያጣሩ",
+    "serviceFilter": "በአገልግሎት ያጣሩ",
+    "allServices": "ሁሉም አገልግሎቶች",
+    "reviewsCount": "{count} ግምገማዎችን በማሳየት ላይ",
+    "leaveReview": "ግምገማ ያስቀምጡ",
+    "yourName": "ስምዎ",
+    "yourLocation": "ስፍራዎ",
+    "location": "ስፍራ",
+    "locationPlaceholder": "ከተማ፣ ሀገር",
+    "namePlaceholder": "ስምዎ ወይም ኤሊያስዎ",
+    "service": "የተጠቀሙት አገልግሎት",
+    "serviceUsed": "የተጠቀሙት አገልግሎት",
+    "selectService": "አገልግሎት ይምረጡ",
+    "nuruMassage": "ኑሩ ማሳጅ",
+    "soapyMassage": "ሳቦኒ ማሳጅ",
+    "swedishMassage": "ስዊድሽ ማሳጅ",
+    "eroticMassage": "ኤሮቲክ ማሳጅ",
+    "basicPackage": "መሰረታዊ ጥቅል",
+    "premiumPackage": "ፕሪሚየም ጥቅል",
+    "vipPackage": "ቪአይፒ ጥቅል",
+    "rating": "ደረጃ አሰጣጥ",
+    "yourReview": "የእርስዎ ግምገማ",
+    "reviewPlaceholder": "ስለ ተሞክሮዎ ይንገሩን...",
+    "submitReview": "ግምገማ ያስገቡ",
+    "ctaTitle": "በራስዎ ሊሞክሩት ዝግጁ ነዎት?",
+    "ctaDescription": "ከእኛ ደስተኛ ደንበኞች ጋር ይቀላቀሉ እና ለዛሬ ቀጠሮዎን ያስይዙ",
+    "bookNow": "አሁን ይዘዙ",
+    "happyClients": "ደስተኛ ደንበኞች",
+    "experiencedEscorts": "ልምድ ያላቸው ኤስኮርቶች",
+    "averageRating": "አማካይ ደረጃ"
+  },
+  "contact": {
+    "title": "ያግኙን",
+    "subtitle": "ለቦታ ማስያዣ ወይም ለጥያቄዎች ያነጋግሩን",
+    "name": "ስም",
+    "email": "ኢሜይል",
+    "message": "መልዕክት",
+    "submit": "ይላኩ",
+    "location": "አድራሻ",
+    "phone": "ስልክ",
+    "form": {
+      "title": "መልዕክት ይላኩልን",
+      "name": "ስምዎ",
+      "name_placeholder": "ስምዎን ያስገቡ",
+      "phone": "ስልክዎ",
+      "phone_placeholder": "የስልክ ቁጥርዎን ያስገቡ",
+      "email": "ኢሜይልዎ",
+      "email_placeholder": "ኢሜይልዎን ያስገቡ",
+      "service": "የሚፈልጉት አገልግሎት",
+      "service_placeholder": "አገልግሎት ይምረጡ",
+      "service_nuru": "ኑሩ ማሳጅ",
+      "service_soapy": "ሳሙና ማሳጅ",
+      "service_swedish": "ስዊድሽ ማሳጅ",
+      "service_erotic": "ኤሮቲክ ማሳጅ",
+      "service_package_basic": "መሰረታዊ ጥቅል",
+      "service_package_premium": "ፕሪሚየም ጥቅል",
+      "service_package_vip": "ቪአይፒ ጥቅል",
+      "date": "የሚፈልጉት ቀን",
+      "date_placeholder": "ቀን ይምረጡ",
+      "time": "የሚፈልጉት ሰዓት",
+      "time_placeholder": "ሰዓት ይምረጡ",
+      "message": "ልዩ ጥያቄዎች",
+      "message_placeholder": "ልዩ ጥያቄዎች ወይም ጥያቄዎችን ያስገቡ",
+      "submit": "ጥያቄ ይላኩ",
+      "privacy": "ግላዊነትዎን እናከብራለን። ሁሉም መረጃ ሚስጥራዊ ነው።"
+    },
+    "info": {
+      "title": "የመገኛ መረጃ",
+      "address_title": "አድራሻ",
+      "address": "123 ፕለዥር መንገድ, ዳውንታውን, አዲስ አበባ, ኢትዮጵያ",
+      "phone_title": "ስልክ",
+      "phone": "+251 91 234 5678",
+      "phone2": "+251 98 765 4321",
+      "email_title": "ኢሜይል",
+      "email": "info@ziyaescorts.com",
+      "hours_title": "የስራ ሰዓታት",
+      "hours": "24/7, ሁልጊዜ ለእርስዎ አገልግሎት",
+      "map_title": "እዚህ ያግኙን"
+    },
+    "faq": {
+      "title": "ተደጋግመው የሚጠየቁ ጥያቄዎች",
+      "q1": "ቀጠሮ እንዴት ላስይዝ እችላለሁ?",
+      "a1": "የመገኛ ቅጹን በመሙላት፣ በቀጥታ በመደወል ወይም ኢሜይል በመላክ ቀጠሮ ማስያዝ ይችላሉ። ለጥሩ ዝግጁነት ቢያንስ 2 ሰዓት አስቀድመው እንዲያዙ እንመክራለን።",
+      "q2": "ምን የክፍያ ዘዴዎችን ትቀበላላችሁ?",
+      "a2": "በብር ወይም በዶላር የጥሬ ገንዘብ ክፍያዎችን እንቀበላለን። ለቪአይፒ ፓኬጆች፣ የክሬዲት ካርድ እና የሞባይል ክፍያ ዘዴዎችን እንቀበላለን።",
+      "q3": "ግላዊነቴ የተጠበቀ ነው?",
+      "a3": "በፍጹም። የደንበኛ ሚስጥራዊነትን በከፍተኛ ደረጃ እንወስዳለን። የግል መረጃዎ እና የጉብኝትዎ ዝርዝሮች ለሶስተኛ ወገኖች አይጋሩም ወይም ለህዝብ ይፋ አይደረጉም።"
+    }
+  }
+}
