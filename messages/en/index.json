@@ -10,6 +10,18 @@
     "darkMode": "Dark Mode",
     "lightMode": "Light Mode"
   },
+  "footer": {
+    "about": {
+      "description": "Premium adult services with the highest discretion and quality. Our escorts are professional, friendly, and ready to fulfill your desires."
+    },
+    "quickLinks": "Quick Links",
+    "address": "123 Pleasure St, Downtown\nAddis Ababa, Ethiopia",
+    "phone": "+251 912 345 678",
+    "email": "info@blackmerry.com",
+    "copyright": "© {year} BlackMerry. All rights reserved. For adults 18+ only.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
   "home": {
     "title": "Welcome to Our Escort Services",
     "description": "Premium escort services tailored to your desires",
@@ -45,6 +57,7 @@
   },
   "services": {
     "title": "Our Services",
+    "subtitle": "Discover our range of premium massage services designed to please and satisfy",
     "massageTypes": {
       "title": "Massage Types",
       "nuru": "Nuru Massage",
@@ -54,39 +67,131 @@
       "swedish": "Swedish Massage",
       "swedish_desc": "Classic relaxation massage to soothe your muscles",
       "erotic": "Erotic Massage",
-      "erotic_desc": "Sensual massage experience for ultimate pleasure"
+      "erotic_desc": "Sensual massage experience for ultimate pleasure",
+      "deeptissue": "Deep Tissue Massage",
+      "deeptissue_desc": "Intense massage focusing on the deeper layers of muscle tissue",
+      "aromatherapy": "Aromatherapy Massage",
+      "aromatherapy_desc": "Relaxing massage with essential oils to stimulate your senses",
+      "duration": "Duration",
+      "price": "Price",
+      "bookNow": "Book Now"
+    },
+    "additionalServices": {
+      "title": "Additional Services",
+      "fullBody": {
+        "title": "Full Body Experience",
+        "description": "Complete intimate experience with our trained professionals",
+        "price": "Starting at $300"
+      },
+      "couples": {
+        "title": "Couple's Package",
+        "description": "Enjoy our services with your partner in a luxurious setting",
+        "price": "Starting at $450"
+      },
+      "vip": {
+        "title": "VIP Treatment",
+        "description": "Premium service with multiple escorts and extended time",
+        "price": "Starting at $600"
+      }
+    },
+    "features": {
+      "title": "Why Choose Us",
+      "privacy": {
+        "title": "Complete Privacy",
+        "description": "Your privacy is our top priority. All encounters are completely confidential."
+      },
+      "pricing": {
+        "title": "Competitive Pricing",
+        "description": "Best value for the quality of service provided in the area."
+      },
+      "escorts": {
+        "title": "Experienced Escorts",
+        "description": "All our escorts are experienced professionals trained in the art of pleasure."
+      },
+      "availability": {
+        "title": "24/7 Availability",
+        "description": "Our services are available at any time, day or night, to fit your schedule."
+      }
+    },
+    "cta": {
+      "title": "Ready for an Unforgettable Experience?",
+      "description": "Contact us now to book your session with our professional escorts",
+      "button": "Book Now"
     }
   },
   "packages": {
     "title": "Packages",
+    "subtitle": "Choose the perfect package that suits your desires and budget",
     "basic": {
       "title": "Basic Package",
       "description": "1 hour session with standard massage",
-      "price": "Starting at $150"
+      "price": "Starting at $150",
+      "features": {
+        "feature1": "1 hour session",
+        "feature2": "Standard massage",
+        "feature3": "Single escort",
+        "feature4": "Basic amenities"
+      }
     },
     "premium": {
       "title": "Premium Package",
       "description": "2 hour session with premium massage and extras",
-      "price": "Starting at $250"
+      "price": "Starting at $250",
+      "popular": "Most Popular",
+      "features": {
+        "feature1": "2 hour session",
+        "feature2": "Premium massage",
+        "feature3": "Single escort",
+        "feature4": "Luxury amenities",
+        "feature5": "Complimentary drinks"
+      }
     },
     "vip": {
       "title": "VIP Package",
       "description": "3+ hour full service experience",
-      "price": "Starting at $400"
+      "price": "Starting at $400",
+      "features": {
+        "feature1": "3+ hours",
+        "feature2": "Full service experience",
+        "feature3": "Option for multiple escorts",
+        "feature4": "Premium drinks and food",
+        "feature5": "Special requests accommodated",
+        "feature6": "Luxury environment"
+      }
+    },
+    "bookNow": "Book Now",
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": "How do I book a service?",
+      "a1": "You can book our services by contacting us through phone, email, or filling out the contact form. We'll respond promptly to arrange your appointment.",
+      "q2": "What forms of payment do you accept?",
+      "a2": "We accept cash, major credit cards, and mobile payment methods. Payment is required before the service begins.",
+      "q3": "Can I upgrade my package during the session?",
+      "a3": "Yes, you can upgrade your package during your session if you wish to extend your time or add additional services, subject to availability.",
+      "q4": "Is discretion guaranteed?",
+      "a4": "Absolutely. We value your privacy and ensure complete discretion with all our services. Your personal information will never be shared."
+    },
+    "cta": {
+      "title": "Ready to Experience Our Services?",
+      "description": "Book your appointment today and let us provide you with an unforgettable experience."
     }
   },
   "testimonials": {
     "title": "What Clients Say",
     "description": "Read reviews from our satisfied clients",
+    "subtitle": "Read what our satisfied clients have to say about their experiences",
+    "clientTestimonials": "Client Testimonials",
     "viewMore": "View More",
     "filter": "Filter Reviews",
     "serviceFilter": "Filter by Service",
     "allServices": "All Services",
     "reviewsCount": "Showing {count} reviews",
     "leaveReview": "Leave a Review",
+    "shareExperience": "Share Your Experience",
     "yourName": "Your Name",
     "yourLocation": "Your Location",
     "location": "Location",
+    "name": "Name",
     "locationPlaceholder": "City, Country",
     "namePlaceholder": "Your name or alias",
     "service": "Service Used",

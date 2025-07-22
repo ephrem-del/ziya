@@ -1,10 +1,12 @@
 'use client';
 
+import React from 'react';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 
 export default function Footer() {
   const t = useTranslations('common');
+  const footerT = useTranslations('footer');
   
   const currentYear = new Date().getFullYear();
   
@@ -14,10 +16,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Logo and About */}
           <div>
-            <div className="text-2xl font-bold text-pink-400 mb-3">Ziya</div>
+            <div className="text-2xl font-bold text-pink-400 mb-3">BlackMerry</div>
             <p className="text-gray-300 mb-4">
-              Premium adult services with the highest discretion and quality. 
-              Our escorts are professional, friendly, and ready to fulfill your desires.
+              {footerT('about.description')}
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-300 hover:text-pink-400">
@@ -40,7 +41,7 @@ export default function Footer() {
           
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
+            <h3 className="text-lg font-semibold mb-4">{footerT('quickLinks')}</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="/" className="text-gray-300 hover:text-pink-400 transition duration-300">
@@ -79,19 +80,24 @@ export default function Footer() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
-                <span className="text-gray-300">123 Pleasure St, Downtown<br />Addis Ababa, Ethiopia</span>
+                <span className="text-gray-300">{footerT('address').split('\n').map((line, i) => (
+                  <React.Fragment key={i}>
+                    {line}
+                    {i < footerT('address').split('\n').length - 1 && <br />}
+                  </React.Fragment>
+                ))}</span>
               </li>
               <li className="flex items-start space-x-3">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-pink-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
-                <span className="text-gray-300">+251 912 345 678</span>
+                <span className="text-gray-300">{footerT('phone')}</span>
               </li>
               <li className="flex items-start space-x-3">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-pink-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                <span className="text-gray-300">info@ziya.com</span>
+                <span className="text-gray-300">{footerT('email')}</span>
               </li>
             </ul>
           </div>
@@ -99,10 +105,10 @@ export default function Footer() {
         
         {/* Bottom section */}
         <div className="mt-8 pt-6 border-t border-gray-800 text-center text-gray-400 text-sm">
-          <p>© {currentYear} Ziya. All rights reserved. For adults 18+ only.</p>
+          <p>{footerT('copyright', { year: currentYear })}</p>
           <div className="mt-2 space-x-4">
-            <a href="#" className="hover:text-pink-400 transition duration-300">Privacy Policy</a>
-            <a href="#" className="hover:text-pink-400 transition duration-300">Terms of Service</a>
+            <a href="#" className="hover:text-pink-400 transition duration-300">{footerT('privacyPolicy')}</a>
+            <a href="#" className="hover:text-pink-400 transition duration-300">{footerT('termsOfService')}</a>
           </div>
         </div>
       </div>

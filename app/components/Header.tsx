@@ -35,7 +35,7 @@ export default function Header() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="/" className="text-2xl font-bold text-pink-600 dark:text-pink-400">
-              Ziya
+              BlackMerry
             </Link>
           </div>
           
