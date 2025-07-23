@@ -6,14 +6,14 @@ export default function ContactInfo() {
   const t = useTranslations('contact');
   
   return (
-    <div>
-      <h2 className="text-2xl font-bold mb-6 text-gray-800 dark:text-white">
+    <div className="w-full">
+      <h2 className="text-2xl font-bold mb-6 text-gray-800 dark:text-white text-center">
         {t('info.title')}
       </h2>
       
-      <div className="space-y-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10 max-w-2xl mx-auto">
         {/* Address */}
-        <div className="flex">
+        <div className="flex items-start p-4 bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-md transition-shadow">
           <div className="flex-shrink-0">
             <div className="flex items-center justify-center h-12 w-12 rounded-md bg-pink-100 dark:bg-pink-900 text-pink-600 dark:text-pink-300">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -33,7 +33,7 @@ export default function ContactInfo() {
         </div>
         
         {/* Phone */}
-        <div className="flex">
+        <div className="flex items-start p-4 bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-md transition-shadow">
           <div className="flex-shrink-0">
             <div className="flex items-center justify-center h-12 w-12 rounded-md bg-pink-100 dark:bg-pink-900 text-pink-600 dark:text-pink-300">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -48,14 +48,11 @@ export default function ContactInfo() {
             <p className="mt-1 text-gray-600 dark:text-gray-400">
               {t('info.phone')}
             </p>
-            <p className="mt-1 text-gray-600 dark:text-gray-400">
-              {t('info.phone2')}
-            </p>
           </div>
         </div>
         
         {/* Email */}
-        <div className="flex">
+        <div className="flex items-start p-4 bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-md transition-shadow">
           <div className="flex-shrink-0">
             <div className="flex items-center justify-center h-12 w-12 rounded-md bg-pink-100 dark:bg-pink-900 text-pink-600 dark:text-pink-300">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -74,7 +71,7 @@ export default function ContactInfo() {
         </div>
         
         {/* Hours */}
-        <div className="flex">
+        <div className="flex items-start p-4 bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-md transition-shadow">
           <div className="flex-shrink-0">
             <div className="flex items-center justify-center h-12 w-12 rounded-md bg-pink-100 dark:bg-pink-900 text-pink-600 dark:text-pink-300">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -95,25 +92,28 @@ export default function ContactInfo() {
       
       {/* Map */}
       <div className="mt-10">
-        <h3 className="text-lg font-medium text-gray-800 dark:text-white mb-4">
+        <h3 className="text-lg font-medium text-gray-800 dark:text-white mb-4 text-center">
           {t('info.map_title')}
         </h3>
-        <div className="h-64 rounded-xl overflow-hidden bg-gray-200 dark:bg-gray-700 relative">
+        <div className="h-96 rounded-xl overflow-hidden bg-gray-200 dark:bg-gray-700 relative shadow-lg">
           <iframe 
             width="100%" 
             height="100%" 
             frameBorder="0" 
             scrolling="no" 
-            src="https://www.openstreetmap.org/export/embed.html?bbox=38.7527605%2C8.9756034%2C38.7627605%2C8.9856034&amp;layer=mapnik&amp;marker=8.9806034%2C38.7577605" 
+            src="https://www.openstreetmap.org/export/embed.html?bbox=38.7927605%2C8.9856034%2C38.8027605%2C8.9956034&amp;layer=mapnik&amp;marker=8.9906034%2C38.7977605" 
             style={{ border: 0 }}
           ></iframe>
-          <div className="absolute bottom-2 right-2">
+          <div className="absolute bottom-4 right-4">
             <a 
-              href="https://maps.app.goo.gl/Fp7VWTMsSvdXsdiL7" 
+              href="https://maps.app.goo.gl/KEZiaWHpxLvmNwzV9" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="bg-white px-3 py-1 rounded-lg text-sm font-medium shadow-md hover:bg-gray-100 transition-colors"
+              className="bg-white px-4 py-2 rounded-lg text-sm font-medium shadow-md hover:bg-gray-100 transition-colors flex items-center gap-2"
             >
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
               View in Google Maps
             </a>
           </div>

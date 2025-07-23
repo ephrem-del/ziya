@@ -1,9 +1,61 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
+import React, { useState } from 'react';
 
 export default function TestimonialForm() {
   const t = useTranslations('testimonials');
+  
+  // Form state
+  const [formData, setFormData] = useState({
+    name: '',
+    location: '',
+    service: '',
+    rating: 0,
+    review: ''
+  });
+  
+  // Notification state
+  const [showNotification, setShowNotification] = useState(false);
+  
+  // Handle input changes
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({
+      ...prev,
+      [name]: value
+    }));
+  };
+  
+  // Handle star rating click
+  const handleRatingClick = (rating: number) => {
+    setFormData(prev => ({
+      ...prev,
+      rating
+    }));
+  };
+  
+  // Handle form submission
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    
+    // Show notification
+    setShowNotification(true);
+    
+    // Clear form after submission
+    setFormData({
+      name: '',
+      location: '',
+      service: '',
+      rating: 0,
+      review: ''
+    });
+    
+    // Hide notification after 3 seconds
+    setTimeout(() => {
+      setShowNotification(false);
+    }, 3000);
+  };
   
   return (
     <section className="py-16 bg-gray-100 dark:bg-gray-800">
@@ -13,7 +65,19 @@ export default function TestimonialForm() {
             {t('shareExperience')}
           </h2>
           
-          <form className="bg-white dark:bg-gray-900 rounded-xl shadow-lg p-8 space-y-6">
+          {/* Notification */}
+          {showNotification && (
+            <div className="fixed top-4 right-4 bg-green-500 text-white px-6 py-3 rounded-lg shadow-lg z-50 animate-fade-in-out">
+              <div className="flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                </svg>
+                <span>{t('reviewSubmitted')}</span>
+              </div>
+            </div>
+          )}
+          
+          <form onSubmit={handleSubmit} className="bg-white dark:bg-gray-900 rounded-xl shadow-lg p-8 space-y-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
@@ -22,6 +86,9 @@ export default function TestimonialForm() {
                 <input 
                   type="text"
                   id="name"
+                  name="name"
+                  value={formData.name}
+                  onChange={handleChange}
                   className="w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-800 dark:text-white focus:outline-none focus:ring-2 focus:ring-pink-500"
                   placeholder={t('namePlaceholder')}
                 />
@@ -33,6 +100,9 @@ export default function TestimonialForm() {
                 <input 
                   type="text"
                   id="location"
+                  name="location"
+                  value={formData.location}
+                  onChange={handleChange}
                   className="w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-800 dark:text-white focus:outline-none focus:ring-2 focus:ring-pink-500"
                   placeholder={t('locationPlaceholder')}
                 />
@@ -45,6 +115,9 @@ export default function TestimonialForm() {
               </label>
               <select 
                 id="service"
+                name="service"
+                value={formData.service}
+                onChange={handleChange}
                 className="w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-800 dark:text-white focus:outline-none focus:ring-2 focus:ring-pink-500"
               >
                 <option value="">{t('selectService')}</option>
@@ -67,10 +140,11 @@ export default function TestimonialForm() {
                   <button
                     key={star}
                     type="button"
+                    onClick={() => handleRatingClick(star)}
                     className="w-8 h-8 focus:outline-none"
                   >
                     <svg 
-                      className="w-8 h-8 text-gray-300 hover:text-yellow-400"
+                      className={`w-8 h-8 ${formData.rating >= star ? 'text-yellow-400' : 'text-gray-300 hover:text-yellow-400'}`}
                       fill="currentColor"
                       viewBox="0 0 20 20"
                       xmlns="http://www.w3.org/2000/svg"
@@ -88,6 +162,9 @@ export default function TestimonialForm() {
               </label>
               <textarea 
                 id="review"
+                name="review"
+                value={formData.review}
+                onChange={handleChange}
                 className="w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-800 dark:text-white focus:outline-none focus:ring-2 focus:ring-pink-500 min-h-[150px]"
                 placeholder={t('reviewPlaceholder')}
               ></textarea>

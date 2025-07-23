@@ -1,11 +1,16 @@
-'use client';
-
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import HeroSection from '../../components/packages/HeroSection';
 import PackagesGrid from '../../components/packages/PackagesGrid';
 import FaqSection from '../../components/packages/FaqSection';
 import CTASection from '../../components/packages/CTASection';
+
+export function generateStaticParams() {
+  return [
+    { locale: 'en' },
+    { locale: 'am' }
+  ];
+}
 
 export default function PackagesPage() {
   return (

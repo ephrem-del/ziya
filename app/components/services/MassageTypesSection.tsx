@@ -14,15 +14,15 @@ export default function MassageTypesSection() {
       description: massageT('nuru_desc'),
       image: '/images/services/Nuru.webp',
       duration: '60-120 minutes',
-      price: '$150-$300'
+      price: '$100-$200'
     },
     {
       id: 'soapy',
       title: massageT('soapy'),
       description: massageT('soapy_desc'),
-      image: '/images/services/Soapy.jpg',
+      image: '/images/services/soapy.jpg',
       duration: '60-90 minutes',
-      price: '$150-$250'
+      price: '$100-$180'
     },
     {
       id: 'swedish',
@@ -30,7 +30,7 @@ export default function MassageTypesSection() {
       description: massageT('swedish_desc'),
       image: '/images/services/Swedish.jpg',
       duration: '60 minutes',
-      price: '$120-$180'
+      price: '$100-$150'
     },
     {
       id: 'erotic',
@@ -38,7 +38,7 @@ export default function MassageTypesSection() {
       description: massageT('erotic_desc'),
       image: '/images/services/erotic.avif',
       duration: '60-120 minutes',
-      price: '$200-$350'
+      price: '$150-$250'
     },
     {
       id: 'deeptissue',
@@ -46,7 +46,7 @@ export default function MassageTypesSection() {
       description: massageT('deeptissue_desc'),
       image: '/images/services/DeepTissue.jpeg',
       duration: '60 minutes',
-      price: '$150-$200'
+      price: '$120-$180'
     },
     {
       id: 'aromatherapy',
@@ -54,7 +54,7 @@ export default function MassageTypesSection() {
       description: massageT('aromatherapy_desc'),
       image: '/images/services/Aroma.jpeg',
       duration: '60 minutes',
-      price: '$140-$190'
+      price: '$100-$150'
     }
   ];
   

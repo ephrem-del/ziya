@@ -3,10 +3,15 @@
 import React from 'react';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
+import { usePathname } from 'next/navigation';
 
 export default function Footer() {
   const t = useTranslations('common');
   const footerT = useTranslations('footer');
+  const pathname = usePathname();
+  
+  // Extract locale from pathname
+  const currentLocale = pathname.split('/')[1];
   
   const currentYear = new Date().getFullYear();
   
@@ -44,27 +49,27 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">{footerT('quickLinks')}</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/" className="text-gray-300 hover:text-pink-400 transition duration-300">
+                <Link href={`/${currentLocale}`} className="text-gray-300 hover:text-pink-400 transition duration-300">
                   {t('home')}
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="text-gray-300 hover:text-pink-400 transition duration-300">
+                <Link href={`/${currentLocale}/services`} className="text-gray-300 hover:text-pink-400 transition duration-300">
                   {t('services')}
                 </Link>
               </li>
               <li>
-                <Link href="/packages" className="text-gray-300 hover:text-pink-400 transition duration-300">
+                <Link href={`/${currentLocale}/packages`} className="text-gray-300 hover:text-pink-400 transition duration-300">
                   {t('packages')}
                 </Link>
               </li>
               <li>
-                <Link href="/testimonials" className="text-gray-300 hover:text-pink-400 transition duration-300">
+                <Link href={`/${currentLocale}/testimonials`} className="text-gray-300 hover:text-pink-400 transition duration-300">
                   {t('testimonials')}
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-gray-300 hover:text-pink-400 transition duration-300">
+                <Link href={`/${currentLocale}/contact`} className="text-gray-300 hover:text-pink-400 transition duration-300">
                   {t('contact')}
                 </Link>
               </li>
@@ -91,7 +96,7 @@ export default function Footer() {
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-pink-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
-                <span className="text-gray-300">{footerT('phone')}</span>
+                <a href="tel:+251709811778" className="text-gray-300 hover:text-pink-400 transition duration-300">{footerT('phone')}</a>
               </li>
               <li className="flex items-start space-x-3">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-pink-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">

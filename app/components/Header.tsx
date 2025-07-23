@@ -19,13 +19,13 @@ export default function Header() {
   // Create the new path with the switched locale
   const switchLocalePath = pathname.replace(`/${currentLocale}`, `/${switchLocale}`);
   
-  // Navigation links
+  // Navigation links with locale prefix
   const navLinks = [
-    { href: '/', label: t('home') },
-    { href: '/services', label: t('services') },
-    { href: '/packages', label: t('packages') },
-    { href: '/testimonials', label: t('testimonials') },
-    { href: '/contact', label: t('contact') },
+    { href: `/${currentLocale}`, label: t('home') },
+    { href: `/${currentLocale}/services`, label: t('services') },
+    { href: `/${currentLocale}/packages`, label: t('packages') },
+    { href: `/${currentLocale}/testimonials`, label: t('testimonials') },
+    { href: `/${currentLocale}/contact`, label: t('contact') },
   ];
 
   return (
@@ -34,7 +34,7 @@ export default function Header() {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link href="/" className="text-2xl font-bold text-pink-600 dark:text-pink-400">
+            <Link href={`/${currentLocale}`} className="text-2xl font-bold text-pink-600 dark:text-pink-400">
               BlackMerry
             </Link>
           </div>

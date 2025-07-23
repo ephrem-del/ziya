@@ -15,8 +15,8 @@
       "description": "Premium adult services with the highest discretion and quality. Our escorts are professional, friendly, and ready to fulfill your desires."
     },
     "quickLinks": "Quick Links",
-    "address": "123 Pleasure St, Downtown\nAddis Ababa, Ethiopia",
-    "phone": "+251 912 345 678",
+    "address": "Bole Atlas\nAddis Ababa, Ethiopia",
+    "phone": "+251709811778",
     "email": "info@blackmerry.com",
     "copyright": "© {year} BlackMerry. All rights reserved. For adults 18+ only.",
     "privacyPolicy": "Privacy Policy",
@@ -31,13 +31,13 @@
       "sectionTitle": "Our Location",
       "findUs": "Find Us Here",
       "address": "Address:",
-      "addressLine1": "123 Pleasure St, Downtown",
+      "addressLine1": "Bole Atlas",
       "addressLine2": "Addis Ababa, Ethiopia",
       "hours": "Working Hours:",
       "hoursLine1": "Monday - Sunday: 24/7",
       "hoursLine2": "Always available for you",
       "phone": "Phone:",
-      "phoneNumber": "+251 91 234 5678",
+      "phoneNumber": "+251709811778",
       "phoneNote": "Call anytime for booking"
     },
     "featuredServices": {
@@ -74,24 +74,24 @@
       "aromatherapy_desc": "Relaxing massage with essential oils to stimulate your senses",
       "duration": "Duration",
       "price": "Price",
-      "bookNow": "Book Now"
+      "bookNow": "Call Now"
     },
     "additionalServices": {
       "title": "Additional Services",
       "fullBody": {
         "title": "Full Body Experience",
         "description": "Complete intimate experience with our trained professionals",
-        "price": "Starting at $300"
+        "price": "Starting at $100"
       },
       "couples": {
         "title": "Couple's Package",
         "description": "Enjoy our services with your partner in a luxurious setting",
-        "price": "Starting at $450"
+        "price": "Starting at $150"
       },
       "vip": {
         "title": "VIP Treatment",
         "description": "Premium service with multiple escorts and extended time",
-        "price": "Starting at $600"
+        "price": "Starting at $200"
       }
     },
     "features": {
@@ -116,7 +116,7 @@
     "cta": {
       "title": "Ready for an Unforgettable Experience?",
       "description": "Contact us now to book your session with our professional escorts",
-      "button": "Book Now"
+      "button": "Call Now"
     }
   },
   "packages": {
@@ -125,7 +125,7 @@
     "basic": {
       "title": "Basic Package",
       "description": "1 hour session with standard massage",
-      "price": "Starting at $150",
+      "price": "Starting at $100",
       "features": {
         "feature1": "1 hour session",
         "feature2": "Standard massage",
@@ -136,7 +136,7 @@
     "premium": {
       "title": "Premium Package",
       "description": "2 hour session with premium massage and extras",
-      "price": "Starting at $250",
+      "price": "Starting at $150",
       "popular": "Most Popular",
       "features": {
         "feature1": "2 hour session",
@@ -149,7 +149,7 @@
     "vip": {
       "title": "VIP Package",
       "description": "3+ hour full service experience",
-      "price": "Starting at $400",
+      "price": "Starting at $250",
       "features": {
         "feature1": "3+ hours",
         "feature2": "Full service experience",
@@ -159,7 +159,7 @@
         "feature6": "Luxury environment"
       }
     },
-    "bookNow": "Book Now",
+    "bookNow": "Call Now",
     "faq": {
       "title": "Frequently Asked Questions",
       "q1": "How do I book a service?",
@@ -208,6 +208,7 @@
     "yourReview": "Your Review",
     "reviewPlaceholder": "Tell us about your experience...",
     "submitReview": "Submit Review",
+    "reviewSubmitted": "Thank you! Your review has been submitted.",
     "ctaTitle": "Ready to Experience It Yourself?",
     "ctaDescription": "Join our satisfied clients and book your session today",
     "bookNow": "Book Now",
@@ -257,12 +258,12 @@
     "info": {
       "title": "Contact Information",
       "address_title": "Address",
-      "address": "123 Pleasure St, Downtown, Addis Ababa, Ethiopia",
+      "address": "Bole Atlas, Addis Ababa, Ethiopia",
       "phone_title": "Phone",
-      "phone": "+251 91 234 5678",
-      "phone2": "+251 98 765 4321",
+      "phone": "+251709811778",
+      "phone2": "+251709811778",
       "email_title": "Email",
-      "email": "info@ziyaescorts.com",
+      "email": "info@blackmerry.com",
       "hours_title": "Working Hours",
       "hours": "24/7, Always at your service",
       "map_title": "Find Us Here"

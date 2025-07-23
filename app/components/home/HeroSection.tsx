@@ -2,9 +2,14 @@
 
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 export default function HeroSection() {
   const t = useTranslations('home');
+  const pathname = usePathname();
+  
+  // Extract locale from pathname
+  const currentLocale = pathname.split('/')[1];
   
   return (
     <section className="relative min-h-[80vh] flex items-center text-white overflow-hidden bg-cover bg-center" style={{ backgroundImage: "url('/images/home/Home.jpg')" }}>
@@ -18,7 +23,7 @@ export default function HeroSection() {
             {t('heroDescription')}
           </p>
           <Link 
-            href="/services" 
+            href={`/${currentLocale}/services`} 
             className="bg-pink-500 hover:bg-pink-600 text-white font-semibold px-6 py-3 rounded-lg transition duration-300 inline-flex items-center"
           >
             {t('ctaButton')}

@@ -7,11 +7,6 @@ export default function FaqSection() {
   
   const faqItems = [
     {
-      id: 'q1',
-      question: t('faq.q1'),
-      answer: t('faq.a1')
-    },
-    {
       id: 'q2',
       question: t('faq.q2'),
       answer: t('faq.a2')

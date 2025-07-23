@@ -15,8 +15,8 @@
       "description": "ከፍተኛ ጥንቃቄ እና ጥራት ያለው ፕሪሚየም አዋቂ አገልግሎቶች። የእኛ አስተናጋጆች ሙያዊ፣ ወዳጃዊ እና ፍላጎትዎን ለማሟላት ዝግጁ ናቸው።"
     },
     "quickLinks": "ፈጣን ማገናኛዎች",
-    "address": "123 ፕሌዠር ጎዳና፣ ዳውንታውን\nአዲስ አበባ፣ ኢትዮጵያ",
-    "phone": "+251 912 345 678",
+    "address": "ቦሌ አትላስ\nአዲስ አበባ፣ ኢትዮጵያ",
+    "phone": "+251709811778",
     "email": "info@blackmerry.com",
     "copyright": "© {year} ብላክሜሪ። መብቱ በሕግ የተጠበቀ ነው። ለ18+ አዋቂዎች ብቻ።",
     "privacyPolicy": "የግላዊነት ፖሊሲ",
@@ -31,13 +31,13 @@
       "sectionTitle": "የእኛ አድራሻ",
       "findUs": "እዚህ ያግኙን",
       "address": "አድራሻ:",
-      "addressLine1": "123 ፕለዥር መንገድ, ዳውንታውን",
+      "addressLine1": "ቦሌ አትላስ",
       "addressLine2": "አዲስ አበባ, ኢትዮጵያ",
       "hours": "የስራ ሰዓታት:",
       "hoursLine1": "ሰኞ - እሁድ: 24/7",
       "hoursLine2": "ሁልጊዜ ለእርስዎ ዝግጁ ነን",
       "phone": "ስልክ:",
-      "phoneNumber": "+251 91 234 5678",
+      "phoneNumber": "+251709811778",
       "phoneNote": "ለቦታ ማስያዣ በማንኛውም ጊዜ ይደውሉ"
     },
     "featuredServices": {
@@ -74,24 +74,24 @@
       "aromatherapy_desc": "ስሜትዎን ለማነቃቃት ኢሰንሻል ዘይቶችን በመጠቀም የሚሰጥ አረጋጊ ማሳጅ",
       "duration": "የጊዜ ርዝመት",
       "price": "ዋጋ",
-      "bookNow": "አሁን ይዘዙ"
+      "bookNow": "አሁን ይደውሉ"
     },
     "additionalServices": {
       "title": "ተጨማሪ አገልግሎቶች",
       "fullBody": {
         "title": "ሙሉ አካል ልምድ",
         "description": "ከሰለጠኑ ባለሙያዎቻችን ጋር ሙሉ የቅርበት ልምድ",
-        "price": "ከ $300 ጀምሮ"
+        "price": "ከ $100 ጀምሮ"
       },
       "couples": {
         "title": "የጥንዶች ፓኬጅ",
         "description": "ከፍተኛ ጥራት ባለው አካባቢ ከፓርትነርዎ ጋር የእኛን አገልግሎቶች ይደሰቱ",
-        "price": "ከ $450 ጀምሮ"
+        "price": "ከ $150 ጀምሮ"
       },
       "vip": {
         "title": "ቪአይፒ አገልግሎት",
         "description": "ከብዙ ኤስኮርቶች እና ረጅም ጊዜ ጋር የሚሰጥ ፕሪሚየም አገልግሎት",
-        "price": "ከ $600 ጀምሮ"
+        "price": "ከ $200 ጀምሮ"
       }
     },
     "features": {
@@ -116,7 +116,7 @@
     "cta": {
       "title": "ለማይረሳ ልምድ ዝግጁ ነዎት?",
       "description": "ከሙያዊ ኤስኮርቶቻችን ጋር ክፍለ ጊዜዎን ለመያዝ አሁን ያግኙን",
-      "button": "አሁን ይዘዙ"
+      "button": "አሁን ይደውሉ"
     }
   },
   "packages": {
@@ -125,7 +125,7 @@
     "basic": {
       "title": "መሰረታዊ ፓኬጅ",
       "description": "1 ሰዓት የሚፈጅ መደበኛ ማሳጅ",
-      "price": "ከ $150 ጀምሮ",
+      "price": "ከ $100 ጀምሮ",
       "features": {
         "feature1": "1 ሰዓት ክፍለ ጊዜ",
         "feature2": "መደበኛ ማሳጅ",
@@ -136,7 +136,7 @@
     "premium": {
       "title": "ፕሪሚየም ፓኬጅ",
       "description": "2 ሰዓት የሚፈጅ ፕሪሚየም ማሳጅ ከተጨማሪ አገልግሎቶች ጋር",
-      "price": "ከ $250 ጀምሮ",
+      "price": "ከ $150 ጀምሮ",
       "popular": "በጣም ተወዳጅ",
       "features": {
         "feature1": "2 ሰዓት ክፍለ ጊዜ",
@@ -149,7 +149,7 @@
     "vip": {
       "title": "ቪአይፒ ፓኬጅ",
       "description": "3+ ሰዓት ሙሉ አገልግሎት ልምድ",
-      "price": "ከ $400 ጀምሮ",
+      "price": "ከ $250 ጀምሮ",
       "features": {
         "feature1": "3+ ሰዓታት",
         "feature2": "ሙሉ አገልግሎት ልምድ",
@@ -159,7 +159,7 @@
         "feature6": "ዘመናዊ አካባቢ"
       }
     },
-    "bookNow": "አሁን ይዘዙ",
+    "bookNow": "አሁን ይደውሉ",
     "faq": {
       "title": "ተደጋግመው የሚጠየቁ ጥያቄዎች",
       "q1": "አገልግሎት እንዴት ልዘዝ እችላለሁ?",
@@ -208,9 +208,10 @@
     "yourReview": "የእርስዎ ግምገማ",
     "reviewPlaceholder": "ስለ ተሞክሮዎ ይንገሩን...",
     "submitReview": "ግምገማ ያስገቡ",
+    "reviewSubmitted": "እናመሰግናለን! ግምገማዎ ተልኳል።",
     "ctaTitle": "በራስዎ ሊሞክሩት ዝግጁ ነዎት?",
     "ctaDescription": "ከእኛ ደስተኛ ደንበኞች ጋር ይቀላቀሉ እና ለዛሬ ቀጠሮዎን ያስይዙ",
-    "bookNow": "አሁን ይዘዙ",
+    "bookNow": "አሁን ይደውሉ",
     "happyClients": "ደስተኛ ደንበኞች",
     "experiencedEscorts": "ልምድ ያላቸው ኤስኮርቶች",
     "averageRating": "አማካይ ደረጃ"
@@ -257,12 +258,12 @@
     "info": {
       "title": "የመገኛ መረጃ",
       "address_title": "አድራሻ",
-      "address": "123 ፕለዥር መንገድ, ዳውንታውን, አዲስ አበባ, ኢትዮጵያ",
+      "address": "ቦሌ አትላስ, አዲስ አበባ, ኢትዮጵያ",
       "phone_title": "ስልክ",
-      "phone": "+251 91 234 5678",
-      "phone2": "+251 98 765 4321",
+      "phone": "+251709811778",
+      "phone2": "+251709811778",
       "email_title": "ኢሜይል",
-      "email": "info@ziyaescorts.com",
+      "email": "info@blackmerry.com",
       "hours_title": "የስራ ሰዓታት",
       "hours": "24/7, ሁልጊዜ ለእርስዎ አገልግሎት",
       "map_title": "እዚህ ያግኙን"

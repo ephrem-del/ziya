@@ -54,12 +54,12 @@ export default function LocationSection() {
                 height="100%" 
                 frameBorder="0" 
                 scrolling="no" 
-                src="https://www.openstreetmap.org/export/embed.html?bbox=38.7527605%2C8.9756034%2C38.7627605%2C8.9856034&amp;layer=mapnik&amp;marker=8.9806034%2C38.7577605" 
+                src="https://www.openstreetmap.org/export/embed.html?bbox=38.7927605%2C8.9856034%2C38.8027605%2C8.9956034&amp;layer=mapnik&amp;marker=8.9906034%2C38.7977605" 
                 style={{ border: 0 }}
               ></iframe>
               <div className="absolute bottom-2 right-2">
                 <a 
-                  href="https://maps.app.goo.gl/Fp7VWTMsSvdXsdiL7" 
+                  href="https://maps.app.goo.gl/KEZiaWHpxLvmNwzV9" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="bg-white px-3 py-1 rounded-lg text-sm font-medium shadow-md hover:bg-gray-100 transition-colors"
